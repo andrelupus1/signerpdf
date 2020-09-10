@@ -1,0 +1,22 @@
+{
+    "name": "signer/portablesigner",
+    "description": "Signer pdf file",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Everton Muniz",
+            "email": "signer@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "signer\\PortableSigner\\": "src"
+        }
+    },
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/PortableSigner.jar"
+    ]
+}
